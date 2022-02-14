@@ -1,4 +1,4 @@
-
+/* test comment */
 PROC SQL ;
 	CREATE TABLE work.t_test AS
 	SELECT *
