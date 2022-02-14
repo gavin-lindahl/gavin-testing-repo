@@ -1,0 +1,7 @@
+
+/* this is a comment for client2 sas code below */
+PROC SQL ;
+	CREATE TABLE work.t_test AS
+	SELECT *
+	FROM &client_number..&client_number._&medte._analysis ;
+QUIT ;
