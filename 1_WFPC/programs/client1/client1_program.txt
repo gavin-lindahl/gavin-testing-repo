@@ -2,5 +2,5 @@
 PROC SQL ;
 	CREATE TABLE work.t_test AS
 	SELECT *
-	FROM &client_number..&client_number._&medte._analysis ;
+	FROM work.t_&client_number._&medte._analysis_extract ;
 QUIT ;
